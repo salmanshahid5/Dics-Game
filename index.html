@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="gameAera">
+            <div id="player1" class="player">
+                <div class="name">Salman</div>
+                <div id="totalScore1" class="totalScore">0</div>
+                <div class="currentScore" id="currentScore1">0</div>
+            </div>
+            <div id="player2" class="player">
+                <div class="name">Usman</div>
+                <div id="totalScore2" class="totalScore">0</div>
+                <div class="currentScore" id="currentScore2">0</div>
+            </div>
+        </div>
+        <div id="extreBtn">
+            <div style="display: flex;flex-direction: column;margin: -10px;"> <button class="btn">New Game</button>&nbsp;
+                <button onclick="rollDiceHandler()" class="btn">Roll Dice</button>
+            </div>
+            <div><img id="dice" src="./images/1.jpg" alt="" srcset=""></div>
+            <button onclick="holdhandler()" class="btn">Hold</button>
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>
